@@ -1,0 +1,145 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General styles */
+  html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* overflow: hidden; */
+    padding: 2%;
+    background-color: #fff;
+    color: #000;
+    font-family: 'proxima-nova', sans-serif;
+    margin: 0;
+  }
+
+  .row {
+    /*margin-top: 30px;*/
+    display: flex; 
+    align-items: center;
+}
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    padding-right: 40px;
+    text-align: center;
+  }
+  
+  .profilepic {
+    aspect-ratio: 1 / 1;
+    /*height: 35%;*/
+    width: 20rem;
+    border-radius: 50%;
+    background-color: gray;
+    object-fit: cover;
+    object-position: 100% 0%;
+  }
+
+  .name {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    text-align: center!important;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons svg {
+    margin: 0 5px;
+  }
+  
+  /* Skills Section */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .skill {
+    font-size: 1rem;
+    font-weight: 600;
+    height: 35px;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    border-radius: 50rem !important;
+    background-color: #fcfcfd !important;
+    color: #495057 !important;
+    align-items: center!important;
+    border:1px solid #dee2e6 !important;
+    border-color: #adb5bd !important;
+    display: flex!important;
+  }
+
+  .skill-small {
+    font-size: 0.8rem;
+    font-weight: 600;
+    height: 25px;
+    line-height: 15px;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    border-radius: var(--bs-border-radius-pill)!important;
+    background-color: var(--bs-light-bg-subtle)!important;
+    color: var(--bs-dark-text-emphasis)!important;
+    align-items: center!important;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    border-color: var(--bs-dark-border-subtle)!important;
+    display: flex!important;
+    opacity: 75%;
+  }
+
+  .content {
+    justify-content: space-between;
+    gap: .5rem;
+    width: 100%;
+    display: flex;
+  }
+
+  .description {
+    margin-bottom: 0!important;
+    opacity: .75!important;
+  }
+
+  .duration {
+    white-space: nowrap!important;
+    opacity: 50%;
+  }
+  
+  .link {
+    text-decoration: none;
+    margin-left: 0.5em;
+    font-size: 0.75em;
+  }
+  
+  /* Education & Experience Section */
+
+  
+  /* Media Queries */
+  @media only screen and (max-width: 480px) {
+    .profile-section {
+      padding-right: 0;
+    }
+
+    .profilepic {
+        width: 15rem;
+    }
+  }
